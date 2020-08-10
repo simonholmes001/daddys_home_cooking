@@ -28,7 +28,7 @@ recipes :
   - "fishies in papillotte"
   - "pizza"
   - "Sunday lunch"
-  - "Scrambled eggs"
+  - "scrambled eggs"
 
 recipe_list:
   - recipe: "ragu"
@@ -213,7 +213,7 @@ recipe_list:
     photo_url : 'https://asdhkajhdkjahdjkahdj' 
     video_url : 'https://asdhkajhdkjahdjkahdj' 
 
-  - recipe: "Scrambled eggs"
+  - recipe: "scrambled eggs"
     preparation_time : "10 minuntes"
     cooking_time : "min: 40 minutes but can cook for hours"
     difficulty : "2 / 5"
