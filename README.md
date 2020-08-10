@@ -2,6 +2,7 @@
 
 ### Branch: navbar
 - [ ] Make link light up when at the same id
+- [ ] Create a search function to look for specific recipes
 
 ### Branch: home page
 - [ ] Add in further sub-headers
@@ -17,6 +18,7 @@
 - [ ] Find out how to do the scrolling system when the image below stays in a seemingly fixed position
 - [ ] Make recipe windows responsive so that only two recipes per row are displayed on iphone viewport
 - [ ] Make yaml template for each recipe (difficulty levelm ingredients, time for prepatation, time for cooking - include icons here if possible)
+- [ ] Do recipes open to a new browser window when clicked on?
 
 ### Branch: footer
 - [ ] Add in a copyright 
