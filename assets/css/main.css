@@ -217,7 +217,7 @@ body {
 }
 
 .header {
-	padding-top: 20rem;
+	padding-top: 17rem;
 	padding-left: 6rem;
 }
 
@@ -225,13 +225,26 @@ body {
 	font-size: 4rem;
 	font-weight: 500;
 	color: whitesmoke;
+	padding-bottom: 8px;
+	letter-spacing: 2px;
 }
 
 .title2 {
+	font-size: 4rem;
+	font-weight: 500;
+	color: whitesmoke;
+	padding-bottom: 20px;
+	border-bottom: 4px solid red;
+	position: relative;
+	letter-spacing: 2px;
+}
+
+.title3 {
 	font-size: 3rem;
 	font-weight: 400;
 	color: whitesmoke;
 	padding-top: 3%;
+	letter-spacing: 2px;
 }
 
 /* =================== end of home =================== */

@@ -42,6 +42,7 @@ type Intro struct {
 	Intro     struct {
 		Title1 string `yaml:"title1"`
 		Title2 string `yaml:"title2"`
+		Title3 string `yaml:"title3"`
 	} `yaml:"intro"`
 	Navbar      []string `yaml:"navbar"`
 	Brand       string   `yaml:"brand"`
