@@ -37,20 +37,43 @@ func index(w http.ResponseWriter, r *http.Request) {
 	tpl.ExecuteTemplate(w, "index.html", test)
 }
 
+// type Intro struct {
+// 	PageTitle string `yaml:"pagetitle"`
+// 	Intro     struct {
+// 		Title1 string `yaml:"title1"`
+// 		Title2 string `yaml:"title2"`
+// 	} `yaml:"intro"`
+// 	Navbar      []string `yaml:"navbar"`
+// 	Brand       string   `yaml:"brand"`
+// 	Occupations []string `yaml:"occupations"`
+// 	Sliderimage []string `yaml:"sliderimage"`
+// 	Button      struct {
+// 		Enable string `yaml:"enable"`
+// 		Lable  string `yaml:"label"`
+// 		Link   string `yaml:"link"`
+// 	} `yaml:"button"`
+// }
+
 type Intro struct {
-	PageTitle string `yaml:"pagetitle"`
+	Pagetitle string   `yaml:"pagetitle"`
+	Navbar    []string `yaml:"navbar"`
+	Brand     string   `yaml:"brand"`
 	Intro     struct {
 		Title1 string   `yaml:"title1"`
 		Title2 string   `yaml:"title2"`
 		Title3 []string `yaml:"title3"`
 	} `yaml:"intro"`
-	Navbar      []string `yaml:"navbar"`
-	Brand       string   `yaml:"brand"`
-	Occupations []string `yaml:"occupations"`
-	Sliderimage []string `yaml:"sliderimage"`
-	Button      struct {
-		Enable string `yaml:"enable"`
-		Lable  string `yaml:"label"`
-		Link   string `yaml:"link"`
-	} `yaml:"button"`
+	Recipes    []string `yaml:"recipes"`
+	RecipeList []struct {
+		Recipe          string   `yaml:"recipe"`
+		PreparationTime string   `yaml:"preparation_time"`
+		CookingTime     string   `yaml:"cooking_time"`
+		Difficulty      string   `yaml:"difficulty,omitempty"`
+		Ingredients     []string `yaml:"ingredients"`
+		Method          string   `yaml:"method"`
+		Tags            []string `yaml:"tags"`
+		PhotoURL        string   `yaml:"photo_url"`
+		VideoURL        string   `yaml:"video_url"`
+		Ifficulty       string   `yaml:"ifficulty,omitempty"`
+	} `yaml:"recipe_list"`
 }
