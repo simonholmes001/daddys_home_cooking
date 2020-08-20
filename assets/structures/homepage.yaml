@@ -10,7 +10,11 @@ brand: "Daddy's"
 intro: 
   title1 : "Daddy's"
   title2 : "Home Cooking"
-  title3 : "Feelin' hungry?"
+  title3 : 
+    - "Feelin' hungry?"
+    - "Affa Fine Ta"
+    - "Foos yer Doos?"
+    - "It's time to eat..."
 
 ####### recipes #######
 as:
