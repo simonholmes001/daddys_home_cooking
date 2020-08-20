@@ -14,6 +14,7 @@ intro:
   title2 : "Feelin' hungry?"
 
 ####### recipes #######
+
 recipes :
   - "ragu"
   - "canalonni"
@@ -29,6 +30,7 @@ recipes :
   - "pizza"
   - "Sunday lunch"
   - "scrambled eggs"
+  - "ramen"
 
 recipe_list:
   - recipe: "ragu"
@@ -74,13 +76,21 @@ recipe_list:
     video_url : 'https://asdhkajhdkjahdjkahdj' 
 
   - recipe: "ratatouille"
-    preparation_time : "10 minuntes"
-    cooking_time : "min: 40 minutes but can cook for hours"
+    preparation_time : "20 minuntes"
+    cooking_time : "min: 60 minutes but can cook for hours - the longer the better"
     difficulty : "2 / 5"
     ingredients :
-      - "asdasdaf"
-      - "asdadasd"
-    method : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam deserunt in incidunt et, impedit necessitatibus? Et perferendis pariatur voluptatum voluptate, quasi cum error repellendus quibusdam rem reiciendis repudiandae expedita nam explicabo mollitia nobis hic temporibus officiis dicta harum a iure facilis veritatis! Odit debitis eaque excepturi doloremque dignissimos rem atque provident exercitationem, eum corporis, fuga accusantium quia praesentium dolorum aut nisi perspiciatis numquam enim unde aliquam iusto, ipsa illum velit iste. Delectus sed fugiat libero vero, iste, voluptatum ut odit dolorem illum, placeat unde! Asperiores quod consequatur quaerat praesentium esse fugiat eos, eligendi animi maxime ea inventore fugit similique harum est eveniet ab, alias quos debitis explicabo illo accusantium assumenda! Eaque numquam ut voluptatem magni fuga mollitia, placeat at asperiores veniam reiciendis quo optio sunt harum? Deserunt sint, earum quasi fugit culpa rerum quia nobis voluptas necessitatibus repudiandae. Quisquam maxime atque eligendi reprehenderit eum molestiae similique accusamus impedit cupiditate eius, quia animi sed itaque nulla laboriosam neque? Esse ipsum, earum eos rerum, magnam sapiente veritatis quod repudiandae minus iste harum. Officia, eius voluptates distinctio, excepturi eaque accusantium saepe sint perspiciatis ipsam unde explicabo omnis labore pariatur sequi! Consequuntur, iure explicabo minima, distinctio quibusdam magnam dicta modi delectus maiores, dolores rem."
+      - "Here is the list of the ingredients I use, but the actual quantities can vary as you want"
+      - "1 onion"
+      - "1 box tomatoes"
+      - "2 red pepers"
+      - "3 medium courgettes"
+      - "2 medium aubergines"
+      - "olive oil for frying"
+    method : "The basic idea is that certain ingredients are fist cooked seperately to release the flavours. Then all of the indgredients are combined together & cooked for a minimum of one hour, but the longer the indregdients are cooked together, the better.
+    Start by frying the onions in olive oil over a high heat. Add a little salt. When the onions start to brown, add the tomatoes, whole. Cover & reduce the heat to a minimum. Cook over a low heat for at least 30 minutes. Once the tomatoes are soft enough, break them down to release their juices.
+    Cut the courgettes & abergines into chunks, he size depends on your taste. Combine together, add a little salt & fry in oive oil over a high heat, stirring frequently. When the vegertables start to look soft, cover and reduce the heat to a minimum. Cook over a low heat for at least 30 minutes. Then combine with the onion & tomato mixture, mix well and continue cooking over a low heat but without the lid on.
+    Finally, cut the red peppers into big chuncks. Fry over a high heat until the peppers start to brown. Then add the peppers & their juices to the onion / tomato / courgette / aubergine mixture & continue the cooking process over a slow heat, for a minimum of one hour, but the longer the mixture is cooked together, the better the end result will be."
     tags : 
       - "pasta"
       - "italian"
@@ -199,7 +209,7 @@ recipe_list:
     photo_url : 'https://asdhkajhdkjahdjkahdj' 
     video_url : 'https://asdhkajhdkjahdjkahdj' 
   
-   - recipe: "Sunday lunch"
+  - recipe: "Sunday lunch"
     preparation_time : "10 minuntes"
     cooking_time : "min: 40 minutes but can cook for hours"
     difficulty : "2 / 5"
