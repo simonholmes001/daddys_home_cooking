@@ -20,7 +20,7 @@ intro:
 
 ####### recipes #######
 
-recipes :
+recipe_list :
   - "ragu"
   - "canalonni"
   - "lasagna"
@@ -37,7 +37,7 @@ recipes :
   - "scrambled eggs"
   - "ramen"
 
-recipe_list:
+recipes:
   - recipe: "ragu"
     preparation_time : "10 minuntes"
     cooking_time : "min: 40 minutes but can cook for hours"
