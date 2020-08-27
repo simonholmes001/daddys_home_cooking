@@ -1,0 +1,13 @@
+{{ define "list"}}
+
+<section id="list">
+  <div class="row">
+      {{ range .RecipeList }}  
+    <div class="col-lg-3 col-md-4 col-sm-2">
+      <p class="recipe_name">{{ . }}</p>
+    </div>
+    {{ end }}
+  </div>
+</section>
+
+{{ end}}

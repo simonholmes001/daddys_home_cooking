@@ -37,6 +37,7 @@ func index(w http.ResponseWriter, r *http.Request) {
 	tpl.ExecuteTemplate(w, "index.html", test)
 }
 
+// THIS WAS THE LAST ONE WORKING
 type Intro struct {
 	PageTitle string   `yaml:"pagetitle"`
 	Navbar    []string `yaml:"navbar"`
@@ -47,7 +48,7 @@ type Intro struct {
 		Title3 []string `yaml:"title3"`
 	} `yaml:"intro"`
 	RecipeList []string `yaml:"recipe_list"`
-	Recipes    []struct {
+	NewRecipes []struct {
 		Recipe          string   `yaml:"recipe"`
 		PreparationTime string   `yaml:"preparation_time"`
 		CookingTime     string   `yaml:"cooking_time"`
@@ -57,51 +58,5 @@ type Intro struct {
 		Tags            []string `yaml:"tags"`
 		PhotoURL        string   `yaml:"photo_url"`
 		VideoURL        string   `yaml:"video_url"`
-	} `yaml:"recipes"`
+	} `yaml:"new_recipes"`
 }
-
-// type Intro struct {
-// 	Pagetitle string   `yaml:"pagetitle"`
-// 	Navbar    []string `yaml:"navbar"`
-// 	Brand     string   `yaml:"brand"`
-// 	Intro     struct {
-// 		Title1 string   `yaml:"title1"`
-// 		Title2 string   `yaml:"title2"`
-// 		Title3 []string `yaml:"title3"`
-// 	} `yaml:"intro"`
-// 	RecipeList []string `yaml:"recipe_list"`
-// 	Recipes    []struct {
-// 		Recipe          string   `yaml:"recipe"`
-// 		PreparationTime string   `yaml:"preparation_time"`
-// 		CookingTime     string   `yaml:"cooking_time"`
-// 		Difficulty      string   `yaml:"difficulty"`
-// 		Ingredients     []string `yaml:"ingredients"`
-// 		Method          string   `yaml:"method"`
-// 		Tags            []string `yaml:"tags"`
-// 		PhotoURL        string   `yaml:"photo_url"`
-// 		VideoURL        string   `yaml:"video_url"`
-// 	} `yaml:"recipes"`
-// }
-
-// type Intro struct {
-// 	Pagetitle string   `yaml:"pagetitle"`
-// 	Navbar    []string `yaml:"navbar"`
-// 	Brand     string   `yaml:"brand"`
-// 	Intro     struct {
-// 		Title1 string   `yaml:"title1"`
-// 		Title2 string   `yaml:"title2"`
-// 		Title3 []string `yaml:"title3"`
-// 	} `yaml:"intro"`
-// 	RecipeList    []string `yaml:"recipe_list"`
-// 	Recipes []struct {
-// 		Recipe          string   `yaml:"recipes"`
-// 		PreparationTime string   `yaml:"preparation_time"`
-// 		CookingTime     string   `yaml:"cooking_time"`
-// 		Difficulty      string   `yaml:"difficulty,omitempty"`
-// 		Ingredients     []string `yaml:"ingredients"`
-// 		Method          string   `yaml:"method"`
-// 		Tags            []string `yaml:"tags"`
-// 		PhotoURL        string   `yaml:"photo_url"`
-// 		VideoURL        string   `yaml:"video_url"`
-// 	} `yaml:"recipe_list"`
-// }
