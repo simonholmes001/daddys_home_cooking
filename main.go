@@ -17,6 +17,7 @@ func init() {
 
 func main() {
 	http.HandleFunc("/", index)
+	http.HandleFunc("/ratatouille", ratatouille)
 	// The following two lines of code allows go to serve the static asset files
 	fs := http.FileServer(http.Dir("assets/"))
 	http.Handle("/assets/", http.StripPrefix("/assets/", fs))
@@ -49,14 +50,32 @@ type Intro struct {
 	} `yaml:"intro"`
 	RecipeList []string `yaml:"recipe_list"`
 	NewRecipes []struct {
-		Recipe          string   `yaml:"recipe"`
-		PreparationTime string   `yaml:"preparation_time"`
-		CookingTime     string   `yaml:"cooking_time"`
-		Difficulty      string   `yaml:"difficulty"`
-		Ingredients     []string `yaml:"ingredients"`
-		Method          string   `yaml:"method"`
-		Tags            []string `yaml:"tags"`
-		PhotoURL        string   `yaml:"photo_url"`
-		VideoURL        string   `yaml:"video_url"`
+		Recipe            string   `yaml:"recipe"`
+		PreparationTime   string   `yaml:"preparation_time"`
+		CookingTime       string   `yaml:"cooking_time"`
+		Difficulty        string   `yaml:"difficulty"`
+		Ingredients       []string `yaml:"ingredients"`
+		Method            string   `yaml:"method"`
+		Tags              []string `yaml:"tags"`
+		PhotoURL          string   `yaml:"photo_url"`
+		VideoURL          string   `yaml:"video_url"`
+		RatatouilleEnable bool     `yaml:"ratatouille_enable"`
+		Homo2Enable       bool     `yaml:"homo2_enable"`
+		Homo3Enable       bool     `yaml:"homo3_enable"`
 	} `yaml:"new_recipes"`
+}
+
+// recipe_templates
+
+func ratatouille(w http.ResponseWriter, r *http.Request) {
+	var test Intro
+	yamlFile, err := ioutil.ReadFile("./assets/structures/homepage.yaml")
+	if err != nil {
+		log.Printf("yamlFile.Get err   #%v ", err)
+	}
+	err = yaml.Unmarshal(yamlFile, &test)
+	if err != nil {
+		log.Fatalf("Unmarshal: %v", err)
+	}
+	tpl.ExecuteTemplate(w, "ratatouille.html", test)
 }

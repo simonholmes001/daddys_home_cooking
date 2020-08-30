@@ -281,6 +281,20 @@ padding-left: 5rem; */
 
 /* =================== end of recipes =================== */
 
+/* =================== end of recipe listing =================== */
+
+.recipe {
+	font-size: 1rem;
+	font-weight: 400;
+	color: rgb(55, 9, 101);
+	letter-spacing: 2px;
+	line-height: 170%;
+	margin-top: 5%;
+	padding: 2.5%;
+}
+
+/* =================== end of recipe listing =================== */
+
 /* =================== TEXT ANIMATION CSS =================== */
 
 

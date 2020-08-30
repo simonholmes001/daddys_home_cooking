@@ -104,7 +104,7 @@ photo_url : '../assets/img/AdobeStock_11018469.jpg'
 video_url : 'https://asdhkajhdkjahdjkahdj'
 
 new_recipes:
-- recipe: "homo1"
+- recipe : "ratatouille"
   preparation_time : "20 minutes"
   cooking_time : "min: 60 minutes but can cook for hours - the longer the better"
   difficulty : "2 / 5"
