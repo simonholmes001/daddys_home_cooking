@@ -284,7 +284,12 @@ padding-left: 5rem; */
 /* =================== end of recipe listing =================== */
 
 .recipe {
-	margin: 5%;
+	font-size: 1rem;
+	font-weight: 400;
+	color: rgb(55, 9, 101);
+	letter-spacing: 2px;
+	line-height: 170%;
+	margin-top: 5%;
 	padding: 2.5%;
 }
 
