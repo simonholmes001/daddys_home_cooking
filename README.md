@@ -3,6 +3,7 @@
 ### Branch: navbar
 - [x] Make link light up when at the same id
 - [ ] Create a search function to look for specific recipes
+- [ ] Get links to work on individual recipe pages
 
 ### Branch: home page
 - [x] Add in further sub-headers
