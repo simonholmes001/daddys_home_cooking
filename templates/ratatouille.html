@@ -1,0 +1,22 @@
+{{template "head" .}}
+
+<body>
+
+<!-- start of nav bar -->
+{{template "navbar" .}}
+<!-- end of nav bar -->
+
+<!-- start of ratatouille -->
+
+<section id="ratatouille">
+      <div class="row recipe">
+          {{ index (index .NewRecipes 0) }} 
+        </div>
+</section>
+
+<!-- end of menu ratatouille -->
+
+
+
+</body>
+</html>
