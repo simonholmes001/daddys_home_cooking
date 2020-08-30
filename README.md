@@ -1,7 +1,7 @@
 ## TO DO
 
 ### Branch: navbar
-[x] Make link light up when at the same id
+- [x] Make link light up when at the same id
 - [ ] Create a search function to look for specific recipes
 
 ### Branch: home page
