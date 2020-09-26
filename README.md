@@ -1,14 +1,14 @@
 ## TO DO
 
 ### Branch: navbar
-- [x] Make link light up when at the same id
+- [ ] Make link light up when at the same id
 - [ ] Create a search function to look for specific recipes
 - [ ] Get links to work on individual recipe pages
 
 ### Branch: home page
 - [x] Add in further sub-headers
-- [ ] On sub-headers add in animation
-- [ ] On sub-headers update yaml file & main.go file, cycle through sub-headers with the animation 
+- [x] On sub-headers add in animation
+- [x] On sub-headers update yaml file & main.go file, cycle through sub-headers with the animation 
 - [ ] Make main title & sub-headers responsive
 - [ ] Make image responsive
 - [ ] Make carousel for the main images

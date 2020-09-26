@@ -8,14 +8,38 @@
                <h1 class="title2">{{ .Intro.Title2 }}</h1>
           </div>
         </div>
-        <div class="animated-text">
-          <strong class="cd-headline clip">
-            <span class="cd-words-wrapper">
-        {{ range .Intro.Title3 }}
-        <p class="title3">{{ . }}</p>
-        {{end}}
+      
+<!-- ------------- Start of animated text slider -------------         -->
+
+<div class="content">
+<div class="slide-wrapper">
+  <div class="slider">
+      <div class="slider-text1 title3">
+          {{ (index  .Intro.Title3 0) }}
+      </div>  
+      <div class="slider-text2 title3">
+          {{ (index  .Intro.Title3 1) }}
+      </div> 
+      <div class="slider-text3 title3">
+          {{ (index  .Intro.Title3 2) }}
+      </div> 
+  </div>
+</div>
+</div>
   </div>
 </section>
 
+<!-- ------------- End of animated text slider -------------         -->
+
+<div class="content">
+    <div class="slider-wrapper">
+      I can write
+      <div class="slider">
+          <div class="slider-text1">HTML</div>
+          <div class="slider-text2">CSS</div>
+          <div class="slider-text3">PHP</div>
+      </div>
+    </div>       
+  </div>
 
 {{ end }}
