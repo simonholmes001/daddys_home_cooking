@@ -37,70 +37,70 @@ recipe_list :
   - "scrambled eggs"
   - "ramen"
 
-recipes:
-- recipe: "Ragu"
-  preparation_time : "10 minutes"
-  cooking_time : "min: 40 minutes but can cook for hours"
-  difficulty : "2 / 5"
-  ingredients :
-    - "asdasdaf"
-    - "asdadasd"
-  method : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam deserunt in incidunt et, impedit necessitatibus?   Et perferendis pariatur voluptatum voluptate, quasi cum error repellendus quibusdam rem reiciendis repudiandae expedita nam     explicabo mollitia nobis hic temporibus officiis dicta harum a iure facilis veritatis! Odit debitis eaque excepturi       doloremque dignissimos rem atque provident exercitationem, eum corporis, fuga accusantium quia praesentium dolorum aut nisi perspiciatis numquam enim unde aliquam iusto, ipsa illum velit iste. Delectus sed fugiat libero vero, iste, voluptatum ut odit dolorem illum, placeat unde! Asperiores quod consequatur quaerat praesentium esse fugiat eos, eligendi animi maxime ea inventore fugit similique harum est eveniet ab, alias quos debitis explicabo illo accusantium assumenda! Eaque numquam ut voluptatem magni fuga mollitia, placeat at asperiores veniam reiciendis quo optio sunt harum? Deserunt sint, earum quasi fugit culpa rerum quia nobis voluptas necessitatibus repudiandae. Quisquam maxime atque eligendi reprehenderit eum molestiae similique accusamus impedit cupiditate eius, quia animi sed itaque nulla laboriosam neque? Esse ipsum, earum eos rerum, magnam sapiente veritatis quod repudiandae minus iste harum. Officia, eius voluptates distinctio, excepturi eaque accusantium saepe sint perspiciatis ipsam unde explicabo omnis labore pariatur sequi! Consequuntur, iure explicabo minima, distinctio quibusdam magnam dicta modi delectus maiores, dolores rem."
-  tags : 
-    - "pasta"
-    - "italian"
-  photo_url : '../assets/img/AdobeStock_11018469.jpg' 
-  video_url : 'https://asdhkajhdkjahdjkahdj' 
+# recipes:
+# - recipe: "Ragu"
+#   preparation_time : "10 minutes"
+#   cooking_time : "min: 40 minutes but can cook for hours"
+#   difficulty : "2 / 5"
+#   ingredients :
+#     - "asdasdaf"
+#     - "asdadasd"
+#   method : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam deserunt in incidunt et, impedit necessitatibus?   Et perferendis pariatur voluptatum voluptate, quasi cum error repellendus quibusdam rem reiciendis repudiandae expedita nam     explicabo mollitia nobis hic temporibus officiis dicta harum a iure facilis veritatis! Odit debitis eaque excepturi       doloremque dignissimos rem atque provident exercitationem, eum corporis, fuga accusantium quia praesentium dolorum aut nisi perspiciatis numquam enim unde aliquam iusto, ipsa illum velit iste. Delectus sed fugiat libero vero, iste, voluptatum ut odit dolorem illum, placeat unde! Asperiores quod consequatur quaerat praesentium esse fugiat eos, eligendi animi maxime ea inventore fugit similique harum est eveniet ab, alias quos debitis explicabo illo accusantium assumenda! Eaque numquam ut voluptatem magni fuga mollitia, placeat at asperiores veniam reiciendis quo optio sunt harum? Deserunt sint, earum quasi fugit culpa rerum quia nobis voluptas necessitatibus repudiandae. Quisquam maxime atque eligendi reprehenderit eum molestiae similique accusamus impedit cupiditate eius, quia animi sed itaque nulla laboriosam neque? Esse ipsum, earum eos rerum, magnam sapiente veritatis quod repudiandae minus iste harum. Officia, eius voluptates distinctio, excepturi eaque accusantium saepe sint perspiciatis ipsam unde explicabo omnis labore pariatur sequi! Consequuntur, iure explicabo minima, distinctio quibusdam magnam dicta modi delectus maiores, dolores rem."
+#   tags : 
+#     - "pasta"
+#     - "italian"
+#   photo_url : '../assets/img/ratatouille.jpeg' 
+#   video_url : 'https://asdhkajhdkjahdjkahdj' 
 
-- recipe: "Canalonni"
-  preparation_time : "10 minutes"
-  cooking_time : "min: 40 minutes but can cook for hours"
-  difficulty : "2 / 5"
-  ingredients :
-    - "asdasdaf"
-    - "asdadasd"
-  method : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam deserunt in incidunt et, impedit necessitatibus? Et perferendis pariatur voluptatum voluptate, quasi cum error repellendus quibusdam rem reiciendis repudiandae expedita nam explicabo mollitia nobis hic temporibus officiis dicta harum a iure facilis veritatis! Odit debitis eaque excepturi doloremque dignissimos rem atque provident exercitationem, eum corporis, fuga accusantium quia praesentium dolorum aut nisi perspiciatis numquam enim unde aliquam iusto, ipsa illum velit iste. Delectus sed fugiat libero vero, iste, voluptatum ut odit dolorem illum, placeat unde! Asperiores quod consequatur quaerat praesentium esse fugiat eos, eligendi animi maxime ea inventore fugit similique harum est eveniet ab, alias quos debitis explicabo illo accusantium assumenda! Eaque numquam ut voluptatem magni fuga mollitia, placeat at asperiores veniam reiciendis quo optio sunt harum? Deserunt sint, earum quasi fugit culpa rerum quia nobis voluptas necessitatibus repudiandae. Quisquam maxime atque eligendi reprehenderit eum molestiae similique accusamus impedit cupiditate eius, quia animi sed itaque nulla laboriosam neque? Esse ipsum, earum eos rerum, magnam sapiente veritatis quod repudiandae minus iste harum. Officia, eius voluptates distinctio, excepturi eaque accusantium saepe sint perspiciatis ipsam unde explicabo omnis labore pariatur sequi! Consequuntur, iure explicabo minima, distinctio quibusdam magnam dicta modi delectus maiores, dolores rem."
-  tags : 
-    - "pasta"
-    - "italian"
-  photo_url : '../assets/img/AdobeStock_22122719.jpg' 
-  video_url : 'https://asdhkajhdkjahdjkahdj' 
+# - recipe: "Canalonni"
+#   preparation_time : "10 minutes"
+#   cooking_time : "min: 40 minutes but can cook for hours"
+#   difficulty : "2 / 5"
+#   ingredients :
+#     - "asdasdaf"
+#     - "asdadasd"
+#   method : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam deserunt in incidunt et, impedit necessitatibus? Et perferendis pariatur voluptatum voluptate, quasi cum error repellendus quibusdam rem reiciendis repudiandae expedita nam explicabo mollitia nobis hic temporibus officiis dicta harum a iure facilis veritatis! Odit debitis eaque excepturi doloremque dignissimos rem atque provident exercitationem, eum corporis, fuga accusantium quia praesentium dolorum aut nisi perspiciatis numquam enim unde aliquam iusto, ipsa illum velit iste. Delectus sed fugiat libero vero, iste, voluptatum ut odit dolorem illum, placeat unde! Asperiores quod consequatur quaerat praesentium esse fugiat eos, eligendi animi maxime ea inventore fugit similique harum est eveniet ab, alias quos debitis explicabo illo accusantium assumenda! Eaque numquam ut voluptatem magni fuga mollitia, placeat at asperiores veniam reiciendis quo optio sunt harum? Deserunt sint, earum quasi fugit culpa rerum quia nobis voluptas necessitatibus repudiandae. Quisquam maxime atque eligendi reprehenderit eum molestiae similique accusamus impedit cupiditate eius, quia animi sed itaque nulla laboriosam neque? Esse ipsum, earum eos rerum, magnam sapiente veritatis quod repudiandae minus iste harum. Officia, eius voluptates distinctio, excepturi eaque accusantium saepe sint perspiciatis ipsam unde explicabo omnis labore pariatur sequi! Consequuntur, iure explicabo minima, distinctio quibusdam magnam dicta modi delectus maiores, dolores rem."
+#   tags : 
+#     - "pasta"
+#     - "italian"
+#   photo_url : '../assets/img/AdobeStock_22122719.jpg' 
+#   video_url : 'https://asdhkajhdkjahdjkahdj' 
 
-- recipe: "Ratatouille"
-  preparation_time : "20 minutes"
-  cooking_time : "min: 60 minutes but can cook for hours - the longer the better"
-  difficulty : "2 / 5"
-  ingredients :
-    - "Here is the list of the ingredients I use, but the actual quantities can vary as you want"
-    - "1 onion"
-    - "1 box tomatoes"
-    - "2 red pepers"
-    - "3 medium courgettes"
-    - "2 medium aubergines"
-    - "olive oil for frying"
-  method : "The basic idea is that certain ingredients are fist cooked seperately to release the flavours. Then all of the indgredients are combined together & cooked for a minimum of one hour, but the longer the indregdients are cooked together, the better.
-  Start by frying the onions in olive oil over a high heat. Add a little salt. When the onions start to brown, add the tomatoes, whole. Cover & reduce the heat to a minimum. Cook over a low heat for at least 30 minutes. Once the tomatoes are soft enough, break them down to release their juices.
-  Cut the courgettes & abergines into chunks, he size depends on your taste. Combine together, add a little salt & fry in oive oil over a high heat, stirring frequently. When the vegertables start to look soft, cover and reduce the heat to a minimum. Cook over a low heat for at least 30 minutes. Then combine with the onion & tomato mixture, mix well and continue cooking over a low heat but without the lid on.
-  Finally, cut the red peppers into big chuncks. Fry over a high heat until the peppers start to brown. Then add the peppers & their juices to the onion / tomato / courgette / aubergine mixture & continue the cooking process over a slow heat, for a minimum of one hour, but the longer the mixture is cooked together, the better the end result will be."
-  tags : 
-    - "sides"
-    - "vegetables"
-  photo_url : '../assets/img/pizza.jpg' 
-  video_url : 'https://asdhkajhdkjahdjkahdj'
+# - recipe: "Ratatouille"
+#   preparation_time : "20 minutes"
+#   cooking_time : "min: 60 minutes but can cook for hours - the longer the better"
+#   difficulty : "2 / 5"
+#   ingredients :
+#     - "Here is the list of the ingredients I use, but the actual quantities can vary as you want"
+#     - "1 onion"
+#     - "1 box tomatoes"
+#     - "2 red pepers"
+#     - "3 medium courgettes"
+#     - "2 medium aubergines"
+#     - "olive oil for frying"
+#   method : "The basic idea is that certain ingredients are fist cooked seperately to release the flavours. Then all of the indgredients are combined together & cooked for a minimum of one hour, but the longer the indregdients are cooked together, the better.
+#   Start by frying the onions in olive oil over a high heat. Add a little salt. When the onions start to brown, add the tomatoes, whole. Cover & reduce the heat to a minimum. Cook over a low heat for at least 30 minutes. Once the tomatoes are soft enough, break them down to release their juices.
+#   Cut the courgettes & abergines into chunks, he size depends on your taste. Combine together, add a little salt & fry in oive oil over a high heat, stirring frequently. When the vegertables start to look soft, cover and reduce the heat to a minimum. Cook over a low heat for at least 30 minutes. Then combine with the onion & tomato mixture, mix well and continue cooking over a low heat but without the lid on.
+#   Finally, cut the red peppers into big chuncks. Fry over a high heat until the peppers start to brown. Then add the peppers & their juices to the onion / tomato / courgette / aubergine mixture & continue the cooking process over a slow heat, for a minimum of one hour, but the longer the mixture is cooked together, the better the end result will be."
+#   tags : 
+#     - "sides"
+#     - "vegetables"
+#   photo_url : '../assets/img/ratatouille.jpeg' 
+#   video_url : 'https://asdhkajhdkjahdjkahdj'
   
-- recipe: "NEW"
-preparation_time : "10 minutes"
-cooking_time : "min: 40 minutes but can cook for hours"
-difficulty : "2 / 5"
-ingredients :
-  - "asdasdaf"
-  - "asdadasd"
-method : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam deserunt in incidunt et, impedit necessitatibus?   Et perferendis pariatur voluptatum voluptate, quasi cum error repellendus quibusdam rem reiciendis repudiandae expedita nam     explicabo mollitia nobis hic temporibus officiis dicta harum a iure facilis veritatis! Odit debitis eaque excepturi       doloremque dignissimos rem atque provident exercitationem, eum corporis, fuga accusantium quia praesentium dolorum aut nisi perspiciatis numquam enim unde aliquam iusto, ipsa illum velit iste. Delectus sed fugiat libero vero, iste, voluptatum ut odit dolorem illum, placeat unde! Asperiores quod consequatur quaerat praesentium esse fugiat eos, eligendi animi maxime ea inventore fugit similique harum est eveniet ab, alias quos debitis explicabo illo accusantium assumenda! Eaque numquam ut voluptatem magni fuga mollitia, placeat at asperiores veniam reiciendis quo optio sunt harum? Deserunt sint, earum quasi fugit culpa rerum quia nobis voluptas necessitatibus repudiandae. Quisquam maxime atque eligendi reprehenderit eum molestiae similique accusamus impedit cupiditate eius, quia animi sed itaque nulla laboriosam neque? Esse ipsum, earum eos rerum, magnam sapiente veritatis quod repudiandae minus iste harum. Officia, eius voluptates distinctio, excepturi eaque accusantium saepe sint perspiciatis ipsam unde explicabo omnis labore pariatur sequi! Consequuntur, iure explicabo minima, distinctio quibusdam magnam dicta modi delectus maiores, dolores rem."
-tags : 
-  - "pasta"
-  - "italian"
-photo_url : '../assets/img/AdobeStock_11018469.jpg' 
-video_url : 'https://asdhkajhdkjahdjkahdj'
+# - recipe: "NEW"
+# preparation_time : "10 minutes"
+# cooking_time : "min: 40 minutes but can cook for hours"
+# difficulty : "2 / 5"
+# ingredients :
+#   - "asdasdaf"
+#   - "asdadasd"
+# method : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam deserunt in incidunt et, impedit necessitatibus?   Et perferendis pariatur voluptatum voluptate, quasi cum error repellendus quibusdam rem reiciendis repudiandae expedita nam     explicabo mollitia nobis hic temporibus officiis dicta harum a iure facilis veritatis! Odit debitis eaque excepturi       doloremque dignissimos rem atque provident exercitationem, eum corporis, fuga accusantium quia praesentium dolorum aut nisi perspiciatis numquam enim unde aliquam iusto, ipsa illum velit iste. Delectus sed fugiat libero vero, iste, voluptatum ut odit dolorem illum, placeat unde! Asperiores quod consequatur quaerat praesentium esse fugiat eos, eligendi animi maxime ea inventore fugit similique harum est eveniet ab, alias quos debitis explicabo illo accusantium assumenda! Eaque numquam ut voluptatem magni fuga mollitia, placeat at asperiores veniam reiciendis quo optio sunt harum? Deserunt sint, earum quasi fugit culpa rerum quia nobis voluptas necessitatibus repudiandae. Quisquam maxime atque eligendi reprehenderit eum molestiae similique accusamus impedit cupiditate eius, quia animi sed itaque nulla laboriosam neque? Esse ipsum, earum eos rerum, magnam sapiente veritatis quod repudiandae minus iste harum. Officia, eius voluptates distinctio, excepturi eaque accusantium saepe sint perspiciatis ipsam unde explicabo omnis labore pariatur sequi! Consequuntur, iure explicabo minima, distinctio quibusdam magnam dicta modi delectus maiores, dolores rem."
+# tags : 
+#   - "pasta"
+#   - "italian"
+# photo_url : '../assets/img/AdobeStock_11018469.jpg' 
+# video_url : 'https://asdhkajhdkjahdjkahdj'
 
 new_recipes:
 - recipe : "ratatouille"
@@ -111,61 +111,97 @@ new_recipes:
     - "Here is the list of the ingredients I use, but the actual quantities can vary as you want"
     - "1 onion"
     - "1 box tomatoes"
-    - "2 red pepers"
+    - "2 red peppers"
     - "3 medium courgettes"
     - "2 medium aubergines"
     - "olive oil for frying"
   method : "The basic idea is that certain ingredients are fist cooked seperately to release the flavours. Then all of the indgredients are combined together & cooked for a minimum of one hour, but the longer the indregdients are cooked together, the better.
-  Start by frying the onions in olive oil over a high heat. Add a little salt. When the onions start to brown, add the tomatoes, whole. Cover & reduce the heat to a minimum. Cook over a low heat for at least 30 minutes. Once the tomatoes are soft enough, break them down to release their juices.
-  Cut the courgettes & abergines into chunks, he size depends on your taste. Combine together, add a little salt & fry in oive oil over a high heat, stirring frequently. When the vegertables start to look soft, cover and reduce the heat to a minimum. Cook over a low heat for at least 30 minutes. Then combine with the onion & tomato mixture, mix well and continue cooking over a low heat but without the lid on.
-  Finally, cut the red peppers into big chuncks. Fry over a high heat until the peppers start to brown. Then add the peppers & their juices to the onion / tomato / courgette / aubergine mixture & continue the cooking process over a slow heat, for a minimum of one hour, but the longer the mixture is cooked together, the better the end result will be."
+  Start by frying the onions in olive oil over a high heat. Add a little salt. When the onions start to brown, add the tomatoes, whole. 
+  Cover & reduce the heat to a minimum. Cook over a low heat for at least 30 minutes. 
+  Once the tomatoes are soft enough, break them down to release their juices.
+  Cut the courgettes & abergines into chunks, he size depends on your taste. Combine together, add a little salt & fry in oive oil over a high heat, stirring frequently. 
+  When the vegetables start to look soft, cover and reduce the heat to a minimum. Cook over a low heat for at least 30 minutes. 
+  Then combine with the onion & tomato mixture, mix well and continue cooking over a low heat but without the lid on.
+  Finally, cut the red peppers into big chuncks. Fry over a high heat until the peppers start to brown. 
+  Then add the peppers & their juices to the onion / tomato / courgette / aubergine mixture & continue the cooking process over a slow heat, for a minimum of one hour, but the longer the mixture is cooked together, the better the end result will be"
   tags : 
     - "sides"
     - "vegetables"
+  photo_url : '../assets/img/ratatouille.jpeg' 
+  video_url : 'https://asdhkajhdkjahdjkahdj'
+
+- recipe: "Curry, simplified"
+  preparation_time : "20 minutes"
+  cooking_time : "min: 60 minutes but can cook for hours - the longer the better"
+  difficulty : "3 / 5"
+  ingredients :
+    - "1 onion"
+    - "1 can tomatoes or 6 to 8 fresh tomatoes"
+    - "1 small can tomato puree [optional]"
+    - "2 green peppers [optional]"
+    - "4 to 5 garlic gloves [to taste]"
+    - "1 large knob of ginger [optional]"
+    - "Patak's curry paste (https://www.pataks.co.uk/)"
+    - "Cardonmon seeds [optional]"
+    - "Garam masala [optional]"
+    - "Coriander [optional]"
+    - "Coconut milk [optional]"
+    - "Coconut meat [optional]"
+    - "Meat, fish or seafood"
+    - "Chillies [optional]"
+    - "Oil for frying"
+    - "Salt"
+  method : "Chop the onions, garlic, grate the ginger or chop finely. Combine these ingredients in a bowl. 
+  Chop the pepper into large chunks or as wanted.
+  Chop the meat into chunks of the desired size, but I prefer a good sized chunk. The recipe here is using leftover meat from a different dish
+  and is hence already cooked. If raw meat is being used, cut the raw meat into appropriately sized pieces.
+  Heat the oil in a large frying pan or wok. When smoking hot, add the onion-garlic-ginger mix and stir. Add a little salt to release the flavours
+  of the mix. Stir-fry the mix for approx 10 minutes or until the onions start to melt & change colour.
+  Once ready, push the onion mix to the sides of the pan. If using, add in the concentrated tomato puree paste to the pan. Stir fry for some
+  seconds and then incorporate the tomato paste into the onions. Once incorporated, add the tomatoes, move to a low heat & simmer gently.
+  In a new pan, heat some oil until smoking. Add the green peppers & stir-fry until the skin of the peppers starts to blister. Add to the 
+  onion-tomato mix.
+  If necessary, transfer the mix to a large pan.
+  If using raw meat, fry the meat in hot oil, add salt, and continue until the meat is lightly browned. Add to the onion-tomato mix.
+  If using cooked meat, add directly to the onion-tomato mix.
+  Cover with the coconut milk and paste or if not using, cover with milk. Add the chillies whole.
+  Bring to near the boil, cover & reduce the ehat to a very gentle simmer. Let simmer for one hour minimum, but the longer the better.
+  Midway through cooking time, add some cardomon seeds. Just before serving, finely chop the coriander & add to the pot. Sprinkle with a 
+  little garam masala. Serve hot with rice & Indian-style flat bread & #enjoy"
+  tags : 
+    - "main dish"
+    - "curry"
+    - "Indian food"
   photo_url : '../assets/img/fish.jpg' 
   video_url : 'https://asdhkajhdkjahdjkahdj'
 
-- recipe: "homo2"
-  preparation_time : "20 minutes"
-  cooking_time : "min: 60 minutes but can cook for hours - the longer the better"
-  difficulty : "2 / 5"
+- recipe: "Indian-style flat bread"
+  preparation_time : "1 1/2 hours minimum, can be longer"
+  cooking_time : "Three minutes per bread"
+  difficulty : "4 / 5"
   ingredients :
-    - "Here is the list of the ingredients I use, but the actual quantities can vary as you want"
-    - "1 onion"
-    - "1 box tomatoes"
-    - "2 red pepers"
-    - "3 medium courgettes"
-    - "2 medium aubergines"
-    - "olive oil for frying"
-  method : "The basic idea is that certain ingredients are fist cooked seperately to release the flavours. Then all of the indgredients are combined together & cooked for a minimum of one hour, but the longer the indregdients are cooked together, the better.
-  Start by frying the onions in olive oil over a high heat. Add a little salt. When the onions start to brown, add the tomatoes, whole. Cover & reduce the heat to a minimum. Cook over a low heat for at least 30 minutes. Once the tomatoes are soft enough, break them down to release their juices.
-  Cut the courgettes & abergines into chunks, he size depends on your taste. Combine together, add a little salt & fry in oive oil over a high heat, stirring frequently. When the vegertables start to look soft, cover and reduce the heat to a minimum. Cook over a low heat for at least 30 minutes. Then combine with the onion & tomato mixture, mix well and continue cooking over a low heat but without the lid on.
-  Finally, cut the red peppers into big chuncks. Fry over a high heat until the peppers start to brown. Then add the peppers & their juices to the onion / tomato / courgette / aubergine mixture & continue the cooking process over a slow heat, for a minimum of one hour, but the longer the mixture is cooked together, the better the end result will be."
+    - "Flour"
+    - "Salt to taste"
+    - "Water"
+    - "Oil for frying"
+  method : "The basic idea idea of combining flour, salt & water to make bread is not in itself particularly complicated. So why a difficulty
+  rating of 4 out of 5? Well, for me, and despite years of trying to get this right, the cooking technique is very difficult to master.
+  To get a perfectly puffed bread at every time is a very difficult thing to achieve... Good luck and enjoy these delicious breads.
+  Depending on the quantity of breads to be made, add flour in a large mixing bowl and add salt to taste. I typically use around 5g salt for 500g of
+  flour - 500g of flour will make a lot of bread!
+  Add sufficient water to bring the flour together into a smooth dough. If too much water is added, add some more flour but be careful not to add
+  too much flour, the dough must remain slightly sticky to the touch.
+  If you want, you can add pther ingredients to the flour before mixing in the water, such as olive oil or yoghurt.
+  Put the dough ball into a large mixing bowl, cov er with a cloth or teat-towel & leave in a warm place for a minimum of one hour.
+  You can, if you wish at this stage, either lightly coat the dough ball in olive oil or rub a small amount of olive oil on the bowl before adding the dough.
+  After the dough has rested for a minimum of one hour, cut the dough into small pieces & rub the dough piece in your hands to get a small dough ball.
+  Roll out the dough ball into a circular form. Heat up a pan or griddle to a very high heat. Add some oil or butter if required. Fry each bread over a high
+  heat for two to three minutes on each side. If your lucky, the dough will puff up to get the loviest of breads. Serve hot"
   tags : 
     - "sides"
-    - "vegetables"
-  photo_url : '../assets/img/fish.jpg' 
-  video_url : 'https://asdhkajhdkjahdjkahdj'
-
-- recipe: "homo3"
-  preparation_time : "20 minutes"
-  cooking_time : "min: 60 minutes but can cook for hours - the longer the better"
-  difficulty : "2 / 5"
-  ingredients :
-    - "Here is the list of the ingredients I use, but the actual quantities can vary as you want"
-    - "1 onion"
-    - "1 box tomatoes"
-    - "2 red pepers"
-    - "3 medium courgettes"
-    - "2 medium aubergines"
-    - "olive oil for frying"
-  method : "The basic idea is that certain ingredients are fist cooked seperately to release the flavours. Then all of the indgredients are combined together & cooked for a minimum of one hour, but the longer the indregdients are cooked together, the better.
-  Start by frying the onions in olive oil over a high heat. Add a little salt. When the onions start to brown, add the tomatoes, whole. Cover & reduce the heat to a minimum. Cook over a low heat for at least 30 minutes. Once the tomatoes are soft enough, break them down to release their juices.
-  Cut the courgettes & abergines into chunks, he size depends on your taste. Combine together, add a little salt & fry in oive oil over a high heat, stirring frequently. When the vegertables start to look soft, cover and reduce the heat to a minimum. Cook over a low heat for at least 30 minutes. Then combine with the onion & tomato mixture, mix well and continue cooking over a low heat but without the lid on.
-  Finally, cut the red peppers into big chuncks. Fry over a high heat until the peppers start to brown. Then add the peppers & their juices to the onion / tomato / courgette / aubergine mixture & continue the cooking process over a slow heat, for a minimum of one hour, but the longer the mixture is cooked together, the better the end result will be."
-  tags : 
-    - "sides"
-    - "vegetables"
+    - "breads"
+    - "dough love"
+    - "Indian food"
   photo_url : '../assets/img/fish.jpg' 
   video_url : 'https://asdhkajhdkjahdjkahdj'
 

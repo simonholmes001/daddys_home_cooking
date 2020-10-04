@@ -3,10 +3,10 @@
 <section id="recipes">
       <div class="row">
           {{ range .NewRecipes }}  
-        <div class="col-lg-4 col-md-4 col-sm-2">
+        <div class="col-lg-4 col-md-4 col-sm-6">
           <p class="recipe_name">{{ .Recipe }}</p>
             <a href="{{ .Recipe }}" target="_blank">
-              <img class="main_images" src="{{ .PhotoURL }}" alt="food image">
+              <img class="main_images hvr-grow-shadow" src="{{ .PhotoURL }}" alt="food image">
             </a>
         </div>
         {{ end }}

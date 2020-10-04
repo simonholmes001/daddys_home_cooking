@@ -153,34 +153,26 @@ body {
 .recipe_name {
 	font-size: 1.4rem;
 	font-weight: 400;
-	color: rgb(55, 9, 101);
+	color: #003684;
 	text-align: center;
 	padding-top: 2rem;
 	padding-bottom: 2rem;
-	/* padding-left: 5rem; */
 	letter-spacing: 2px;
 	margin-top: 35px;
-	/* margin: 50px;
-	margin-top: 10px;
-	margin-left: 20px; */
 }
 
 .main_images {
-height: 70%;
-width: 70%;
-border-radius: 60%;
+height: 65%;
+width: 65%;
+border-radius: 100%;
 display: block;
 margin-left: auto;
 margin-right: auto;
-/* margin-left: 20px;
-padding-left: 5rem; */
-/* margin: 10%; */
-/* margin-bottom: 10%; */
 }
 
 /* =================== end of recipes =================== */
 
-/* =================== end of recipe listing =================== */
+/* =================== start of recipe listing =================== */
 
 .recipe {
 	font-size: 1rem;
