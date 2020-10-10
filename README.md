@@ -27,13 +27,15 @@
 
 ### Branch: recipe templates (for individual recipe sheets)
 - [ ] Make links to home page & recipe links work
-- [ ] Page formatting
+- [x] Page formatting
 - [ ] Insert video
 - [ ] Find out how to host videos - or make link to youtube videos (but display the videos in the web page)
 - [ ] Background image
 - [ ] Find out how to reference other recipies with URL links in the yaml file
-- [ ] FInd out hoz to insert empojies in the yaml file
-- [ ] Get a nice page layout for the "How to make it" sectiobn of the recipe page
+- [ ] FInd out how to insert empojies in the yaml file
+- [x] Get a nice page layout for the "How to make it" section of the recipe page
+- [ ] Get left hand side of the table text into one line
+- [ ] Get page formatting for the right hand side of the table text ie get paragraphs in and even list if possible
 
 ### Branch: footer
 - [ ] Add in a copyright 

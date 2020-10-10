@@ -54,7 +54,7 @@ type Intro struct {
 		PreparationTime   string   `yaml:"preparation_time"`
 		CookingTime       string   `yaml:"cooking_time"`
 		Difficulty        string   `yaml:"difficulty"`
-		Ingredients       []string `yaml:"ingredients"`
+		Ingredients       string   `yaml:"ingredients"`
 		Method            string   `yaml:"method"`
 		Tags              []string `yaml:"tags"`
 		PhotoURL          string   `yaml:"photo_url"`

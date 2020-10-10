@@ -9,13 +9,34 @@
 <!-- start of ratatouille -->
 
 <section id="ratatouille">
-      <div class="row">
-        <p class="recipe">The recipe: {{ (index .NewRecipes 0).Recipe }} </p>
-        <p class="recipe">Preparation time: {{ (index .NewRecipes 0).PreparationTime }} </p>
-        <p class="recipe">Cooking time: {{ (index .NewRecipes 0).CookingTime }} </p>
-        <p class="recipe">Difficulty: {{ (index .NewRecipes 0).Difficulty }}</p>
-        <p class="recipe">Ingredients: {{ (index .NewRecipes 0).Ingredients }}</p>
-        <p class="recipe">How to make it: {{ (index .NewRecipes 0).Method }}</p>
+
+    <div style="overflow-x:auto;">
+        <table>
+          <tr>
+            <td><p class="recipe_header align">The recipe: </p></td>
+            <td><p class="recipe_detail">{{ (index .NewRecipes 0).Recipe }} </p></td>
+            </tr>
+          <tr>
+            <td><p class="recipe_header align">Preparation time: </p></td>
+            <td><p class="recipe_detail">{{ (index .NewRecipes 0).PreparationTime }} </p></td>
+          </tr>
+          <tr>
+              <td><p class="recipe_header align">Cooking time: </p></td>
+              <td><p class="recipe_detail">{{ (index .NewRecipes 0).CookingTime }} </p></td>
+            </tr>
+            <tr>
+                <td><p class="recipe_header align">Difficulty: </p></td>
+                <td><p class="recipe_detail">{{ (index .NewRecipes 0).Difficulty }} </p></td>
+              </tr>
+              <tr>
+                  <td><p class="recipe_header align">Ingredients: </p></td>
+                  <td><p class="recipe_detail">{{ (index .NewRecipes 0).Ingredients }} </p></td>
+                </tr>
+                <tr>
+                    <td><p class="recipe_header align">How to make it: </p></td>
+                    <td><p class="recipe_detail">{{ (index .NewRecipes 0).Method }} </p></td>
+                  </tr>
+        </table>
       </div>
 </section>
 
